@@ -1,0 +1,75 @@
+[
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9ab87024ce8009e751db8_lays-blue-20-10pc--1000x1000-removebg-preview.png",
+    "title": "Blue Lays",
+    "description": 20,
+    "id": 1
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9aba1c51991a914770a40_th__3_-removebg-preview.png",
+    "title": "Green Lays",
+    "description": 20,
+    "id": 2
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9aba8b82c3941fd97c9e6_th__2_-removebg-preview.png",
+    "title": "Yellow Lays",
+    "description": 20,
+    "id": 3
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9abb5b1b48f796997dcca_th__1_-removebg-preview.png",
+    "title": "Orange Kurkure",
+    "description": 20,
+    "id":4
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9ab9a762d100cc2bc8cda_th-removebg-preview.png",
+    "title": "Green Kurkure",
+    "description": 20,
+    "id":5
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9ab80a68c05e349d59d39_MadAngles.png",
+    "title": "Mad Angles",
+    "description": 20,
+    "id":6
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9ab76059d65689e3536e0_muffin.png",
+    "title": "Muffins",
+    "description": 15,
+    "id":7
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9aca5bc330a0c892ffbd6_chocolate-brownie-portion-isolated-white-background-removebg-preview.png",
+    "title": "Brownie",
+    "description": 50,
+    "id":8
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9ab8f959661e2585e8b87_KitKat.png",
+    "title": "KitKat",
+    "description": 30,
+    "id":9
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9aa2012108291fa177b23_DairyMilk.png",
+    "title": "Dairy Milk",
+    "description": 20,
+    "id":10
+  },
+
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9ab6e9e8665718d25810b_MilkyBar.png",
+    "title": "Milky Bar",
+    "description": 20,
+    "id":11
+  },
+  {
+    "image": "https://uploads-ssl.webflow.com/65f9a988d9b7c6d76702fbd4/65f9ab404c22c50b98fe6b1a_Fruit%26Nuts.png",
+    "title": "Fruit & Nut",
+    "description": 20,
+    "id":12
+  }
+]

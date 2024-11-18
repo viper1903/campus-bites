@@ -1,0 +1,131 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.about{
+  background-color: #608F91;
+  padding-bottom: 30px;
+}
+
+.about-us {
+    width: 100%;
+    margin: auto;
+    padding: 60px;
+    padding-top: 10px;
+    background-color:#608F91;
+}
+
+.about-us h1 {
+    text-align: center;
+    color: black;
+    padding: 50px;
+    padding-bottom: 25px;
+    margin-top: 60px;
+}
+
+.about-us h2 {
+    text-align: center;
+    color: #333;
+    padding: 50px;
+}
+
+.about-us .heading-p {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.9
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 150px;
+    background-color: #608F91;
+    margin-top: 120px;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color:white;
+    transition: transform 0.5s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #608F91;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.team-member {
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+}
+
+.team-member img {
+    width: 90%; 
+    height: 250px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+}
+
+.team-title h2 {
+    margin-top: 150px;
+    margin-bottom: -10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .box, .team-member {
+    width: 45%;
+  }
+}
+
+@media (max-width: 800px) {
+  .box, .team-member {
+    width: 100%;
+  }
+}

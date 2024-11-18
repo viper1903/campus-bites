@@ -1,0 +1,159 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+
+  padding:170px;
+
+  padding-top: 80px;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.contact {
+  background-color: #608F91;
+}
+
+.form-of-contact {
+  background-color: white;
+  width: 100%;
+}
+
+.contact-image {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-image img {
+  max-width: 800%;
+  /* margin-left: -275%; */
+  height: auto;
+  transform: scale(1.35);
+  position: relative;
+
+  margin-left: -20px;
+  /* top: -40px; */
+}
+
+.contact-form {
+  flex: 2;
+  padding: 90px;
+  margin-top: 70px;
+  margin-left: 110px;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.3);
+  margin-right: 35%;
+  position: relative;
+  margin-left: 50px;
+  /* top: -50px; */
+}
+
+.contact-form h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: 10px;
+}
+
+.firstName,
+.lastName,
+.phoneNumber,
+.email3,
+.address,
+.message {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%; 
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form-group input.address[type="text"][placeholder="Address"],
+.form-group input.email3[type="email"][placeholder="Email Address"],
+.form-group textarea.message[placeholder="Message"] { 
+  width: 100%;
+}
+
+.form-group textarea {
+  height: 100px;
+  width: 250px;
+}
+
+button.submit2[type="submit"] {
+  font-weight: bolder;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  -webkit-text-fill-color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button.submit2[type="submit"]:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.is-invalid {
+  border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+  }
+}
+
+.warning {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.success {
+  color: rgb(47, 218, 47);
+  animation: fadeOut 10s forwards;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
