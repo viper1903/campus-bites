@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Test database connection
-mongoose.connect('mongodb://localhost:27017/campus_bites', {
+mongoose.connect('mongodb+srv://souravrider10:5Y0blpdfr9ks8uyh@cluster0.nc1dh.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
