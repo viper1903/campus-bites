@@ -1,10 +1,10 @@
 import React from "react";
 import "../CSS/about.css";
-import pic1 from  "../assets/MohitSharma.jpg";
+import pic1 from  "../assets/Mohitsharma.png";
 import pic2 from "../assets/SouravNarayan.jpg";
-import pic3 from "../assets/Reetika.jpg";
-import pic4 from "../assets/ParinitiSinha.jpg";
-import pic5 from "../assets/AbhishekDeep.jpg";
+import pic3 from "../assets/reetikaformal.jpg";
+import pic4 from "../assets/parinitiformal.jpg";
+
 
 
 const AboutUs = () => {
@@ -13,7 +13,6 @@ const AboutUs = () => {
     { name: "Sourav Narayan", image: pic2 },
     { name: "Reetika", image: pic3 },
     { name: "Pariniti Sinha", image: pic4 },
-    { name: "Abhishek Deep", image: pic5},
   ];
 
   return (
