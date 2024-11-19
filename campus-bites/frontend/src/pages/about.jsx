@@ -4,13 +4,14 @@ import pic1 from  "../assets/Mohitsharma.png";
 import pic2 from "../assets/SouravNarayan.jpg";
 import pic3 from "../assets/reetikaformal.jpg";
 import pic4 from "../assets/parinitiformal.jpg";
+import pic5 from "../assets/profilePic1.jpg";
 
 
 
 const AboutUs = () => {
   const teamMembers = [
     { name: "Mohit Sharma", image: pic1 },
-    { name: "Sourav Narayan", image: pic2 },
+    { name: "Sourav Narayan", image: pic5 },
     { name: "Reetika", image: pic3 },
     { name: "Pariniti Sinha", image: pic4 },
   ];
